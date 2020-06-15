@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: teal;
+    height: 50px;
+    width: 100%;
+
+   
+}
+@media  (max-width: 768px){
+    .list{
+        flex-direction: column;
+    }
+    
+
+}
+.list{
+    display: flex
+    ;
+    justify-content: space-between;
+}
+
+    
+
+
+.section1{
+    background-color: darkblue;
+    height: 250px;
+
+}
+    .h1style{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: crimson;
+        text-align: center;
+    }
+    .section2{
+        background-color: darkslategrey;
+        height: 250px;
+    }
+    .projecttext{
+        color: dimgrey;
+    }
+    .section3{
+        background-color: green;
+    }
+    .section4{
+        background-color: indianred;
+    }
+    .contactstyle{
+        color: white;
+    }
+    footer{
+        background-color: tomato;
+    }
+
+
+
+    }
